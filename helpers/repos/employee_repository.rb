@@ -1,5 +1,6 @@
 require 'csv'
 require_relative 'base_repository'
+require_relative '../models/employee.rb'
 
 class EmployeeRepository < BaseRepository
   def initialize(csv_file_path)
